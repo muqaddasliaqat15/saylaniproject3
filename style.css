@@ -1,0 +1,132 @@
+
+div nav{
+    height: auto;
+    width: auto;
+}
+div nav i{
+    color:white;
+    margin:0px 8px 0px 6px;
+    margin-top:13px;
+    margin-bottom: 13px;
+}
+div p{
+    height: auto;
+    width: auto;
+    margin-top: 11px;
+}
+div button{
+    color:green;
+    font-size: 11px;
+    border:1px solid green;
+    padding:6px 12px 6px 12px; 
+    margin:5px 0px 2px 0px;
+}
+nav img{
+    line-height: 40px;
+    padding :0 45px;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 10px;
+    margin:30px 0px 0px 0px;
+    padding:2px 8px 0px 8px;
+}
+div nav ul li a{
+    text-decoration: none;
+    font-size:14px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.active,a:hover{
+    background-color:royalblue;
+    color:white;
+    transition: 0.5s;
+    padding:7px 13px 7px 13px;
+    border-radius: 15px;
+    box-shadow:1px 1px 1px royalblue;
+    text-decoration: none;
+}
+.checkbtn{
+    font-size:25px;
+    background-color:gray;
+    color:black;
+    float:right;
+    line-height:56px;
+    margin-right:20px;
+    margin-top:5px;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+@media(max-width:952px){
+    nav img{
+        line-height: 70px;
+    padding :0 45px;
+       
+    }
+    div.logo nav  ul li a{
+        text-decoration: none;
+    font-size:14px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif
+    }
+}
+@media(max-width:998px){
+    nav img{
+        padding:0px;
+       position: absolute;
+       top:3px;
+       
+    }
+    .checkbtn{
+        display:block;
+    }
+    div nav  ul{
+        position:fixed;
+        width:100%;
+        height:350px;
+        top:196px;
+        left:100%;
+        text-align: center;
+         transition:all .5s;
+         
+         
+    }
+
+    div nav  ul li{
+        display:block;
+        margin:40px 0;
+        line-height: 6px;
+        
+    }
+    div nav ul li a{
+        font-size:15px;
+        font-weight:bold;
+       
+    }
+    a:hover,a.active{
+           background-color: royalblue;
+           color:white;
+    }
+    
+    
+    #check:checked ~  ul{
+        left:0;
+    }
+    
+}
+div marquee {
+    color:white;
+    padding-top: 5px;
+    height:27px;
+    background-color: royalblue;
+}
+
+div p{
+    font-size: 15px;
+}

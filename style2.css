@@ -1,0 +1,119 @@
+div img.food{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+div h1.number{
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+   
+}
+div label{
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+}
+div label span{
+    display: inline-block;
+}
+div img.family{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+div h1.number1{
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+   
+}
+div img.medical{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+div h1.number2{
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+   
+}
+div img.education{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+div h1.number3{
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+   
+}
+div h1.what{
+    margin-left:20px;
+}
+div img.sadqa{
+    margin-left:100px;
+    margin-top: 30px;
+}
+div h3.online{
+    color:royalblue;
+    text-shadow: 1px 1px 2px royalblue;
+    text-align: center;
+}
+div img.welfare{
+    margin-left:100px;
+    margin-top: 30px;
+}
+div h3.welfare2{
+    color:royalblue;
+    text-shadow: 1px 1px 2px royalblue;
+    text-align: center;
+}
+div img.medical{
+    margin-left:100px;
+    margin-top: 30px;
+}
+div h3.medical2{
+    color:royalblue;
+    text-shadow: 1px 1px 2px royalblue;
+    text-align: center;
+}
+div img.dastarkhwan{
+    margin-left:100px;
+    margin-top: 30px;
+}
+div h3.dastarkhwan2{
+    color:royalblue;
+    text-shadow: 1px 1px 2px royalblue;
+    text-align: center;
+}
+div img.plant{
+    margin-left:100px;
+    margin-top: 30px;
+}
+div h3.plant2{
+    color:royalblue;
+    text-shadow: 1px 1px 2px royalblue;
+    text-align: center;
+}
+div img.edu{
+    margin-left:100px;
+    margin-top: 30px;
+}
+div h3.edu2{
+    color:royalblue;
+    text-shadow: 1px 1px 2px royalblue;
+    text-align: center;
+}
+div.arrow{
+    font-size:90px;
+    position:fixed;
+    top:100px;
+    float: right;
+    background-color:royalblue;
+    color:black;
+    border:1px solid black;
+}
+
